@@ -1,0 +1,19 @@
+.btn {
+  display: flex;
+  justify-content: center;
+}
+.loadMoreBtn {
+  margin-bottom: 30px;
+  border-radius: 10px;
+  background-color: #0f78b9;
+  color: aliceblue;
+  width: 120px;
+  height: 40px;
+  outline: none;
+  border: none;
+}
+
+.loadMoreBtn:hover,
+.loadMoreBtn:focus {
+  background-color: #428cbd;
+}

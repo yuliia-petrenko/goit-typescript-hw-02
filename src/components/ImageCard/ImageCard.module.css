@@ -1,0 +1,16 @@
+.image {
+  width: 400px;
+  height: 300px;
+}
+
+.imageCard {
+  display: inline-block;
+  overflow: hidden;
+}
+.imageCard img {
+  transition: transform 1s cubic-bezier(0.4, 0, 0.2, 1);
+  display: block;
+}
+.imageCard img:hover {
+  transform: scale(1.1);
+}
